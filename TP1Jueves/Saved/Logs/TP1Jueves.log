@@ -4143,3 +4143,74 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.10.05-00.49.52:464][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset" SILENT=true
 [2023.10.05-00.49.52:532][518]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hacha
 [2023.10.05-00.49.52:533][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_HachaBFBB32514F162ACD05DB13B36FFE69C9.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset'
+[2023.10.05-00.49.55:892][518]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.10.05-00.50.36:647][518]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [39690ms] waiting for h/w. InstanceID=1
+[2023.10.05-00.50.36:662][518]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.029121s
+[2023.10.05-00.50.40:277][518]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005318s (3.661459s overbudget)
+[2023.10.05-00.50.40:616][518]LogShaderCompilers: Display: ================================================
+[2023.10.05-00.50.40:617][518]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.05-00.50.40:617][518]LogShaderCompilers: Display: Total job queries 4136, among them cache hits 157 (3.80%)
+[2023.10.05-00.50.40:617][518]LogShaderCompilers: Display: Tracking 3971 distinct input hashes that result in 2781 distinct outputs (70.03%)
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: RAM used: 27.37 MB (0.03 GB) of 819.20 MB (0.80 GB) budget. Usage: 3.34%
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Shaders Compiled: 3971
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Jobs assigned 3971, completed 3971 (100.00%)
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Average time worker was idle: 69.75 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Time job spent in pending queue: average 278.90 s, longest 620.67 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Job execution time: average 4.87 s, max 43.05 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Job life time (pending + execution): average 283.77 s, max 622.91
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 851.67 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Jobs were issued in 726 batches (only local compilation was used), average 5.47 jobs/batch
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Average processing rate: 4.66 jobs/sec
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Total thread time: 2040.01 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Total thread preprocess time: 113.96 s
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Percentage time preprocessing: 5.59%
+[2023.10.05-00.50.40:625][518]LogShaderCompilers: Display: Effective parallelization: 2.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.38 sec, max 5.20 sec, min 3.12 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.13 sec, max 6.78 sec, min 1.58 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.73 sec, max 3.06 sec, min 1.09 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 1.45 sec, max 1.96 sec, min 1.25 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                   FCloudRenderViewPS001false (compiled    1 times, average 1.40 sec, max 1.40 sec, min 1.40 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.65% of total time (compiled  150 times, average 1.45 sec, max 1.96 sec, min 1.25 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.31% of total time (compiled  116 times, average 0.76 sec, max 1.53 sec, min 0.46 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.86% of total time (compiled  115 times, average 0.68 sec, max 1.30 sec, min 0.40 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.71% of total time (compiled  128 times, average 0.59 sec, max 1.02 sec, min 0.38 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.47% of total time (compiled  128 times, average 0.55 sec, max 0.72 sec, min 0.45 sec)
+[2023.10.05-00.50.40:626][518]LogShaderCompilers: Display: ================================================
+[2023.10.05-00.50.40:908][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/M_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/M_Hacha.uasset" SILENT=true
+[2023.10.05-00.50.40:992][518]LogSavePackage: Moving output files for package: /Game/Hacha/M_Hacha
+[2023.10.05-00.50.40:992][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/M_Hacha202042874E1527D5B481A2B93CD9D2FD.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/M_Hacha.uasset'
+[2023.10.05-00.50.41:026][518]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Meshes/SK_Mannequin
+[2023.10.05-00.50.41:027][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/SK_Mannequin7B9E19504AA4B12D50B960A53DE27B93.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset'
+[2023.10.05-00.50.41:045][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Interact.uasset" SILENT=true
+[2023.10.05-00.50.41:047][518]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Interact
+[2023.10.05-00.50.41:047][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_Interact4B0B0D0B4E976266FCD927BE46082652.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Interact.uasset'
+[2023.10.05-00.50.41:049][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Input/Actions/IA_PickUp" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_PickUp.uasset" SILENT=true
+[2023.10.05-00.50.41:050][518]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/Actions/IA_PickUp
+[2023.10.05-00.50.41:050][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_PickUpBDD7E1E3499EE7E2612F65B7DEDDA6AB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_PickUp.uasset'
+[2023.10.05-00.50.41:051][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Input/Actions/IA_Drop" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_Drop.uasset" SILENT=true
+[2023.10.05-00.50.41:068][518]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/Actions/IA_Drop
+[2023.10.05-00.50.41:068][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_DropAA16C3184C6C25F9E132A2AEF853F42E.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_Drop.uasset'
+[2023.10.05-00.50.42:598][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.9 sec (total: 53.9 sec)
+[2023.10.05-00.50.43:058][518]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-00.50.43:059][518]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Hacha/M_Hacha.M_Hacha
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/Input/Actions/IA_Drop.IA_Drop
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/Input/Actions/IA_PickUp.IA_PickUp
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Game/Blueprints/BP_Hacha.BP_Hacha_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Interact.BP_Interact
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_Metalic_2k.Battle_ax_Metalic_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_Cavity_mask_2k.Battle_ax_Cavity_mask_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_BaseColor_2k.Battle_ax_BaseColor_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_Ambient_Occlusion_2k.Battle_ax_Ambient_Occlusion_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_Normal_2k.Battle_ax_Normal_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Hacha/Battle_ax_Raughness_2k.Battle_ax_Raughness_2k
+[2023.10.05-00.50.43:068][518]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hacha.BP_Hacha
+[2023.10.05-00.50.43:275][518]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12852
+[2023.10.05-00.50.43:657][520]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{781770e5-e4c5-4cc6-9ce9-484fc062c995}, Name=Altavoces (USB Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=147.17
+[2023.10.05-00.50.43:719][520]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.05-00.50.43:721][520]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
