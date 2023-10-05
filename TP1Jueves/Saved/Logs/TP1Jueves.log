@@ -3349,3 +3349,47 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.05-12.28.37:893][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.10.05-12.29.30:406][605]BlueprintLog: New page: Compile BPC_NPC_Demon
 [2023.10.05-12.29.30:555][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.10.05-12.34.04:788][ 59]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.354 and deleted 0 files with total size 0 MiB. Scanned 5012 files in 4972 folders with total size 595 MiB.
+[2023.10.05-12.36.00:152][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.10.05-12.36.00:217][404]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto5
+[2023.10.05-12.36.00:217][404]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519O_Auto504151E9D48F31E79776D559F9A401A91.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto5.uasset'
+[2023.10.05-12.36.00:218][404]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.134
+[2023.10.05-12.36.00:218][404]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.134
+[2023.10.05-12.36.00:219][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon] ([2] browsable assets)...
+[2023.10.05-12.36.00:466][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon]
+[2023.10.05-12.36.00:467][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon]
+[2023.10.05-12.36.00:479][404]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon_Auto5
+[2023.10.05-12.36.00:479][404]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BPC_NPC_Demon_Auto51F1D99FA4C00A47BD2BC77B328332C05.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon_Auto5.uasset'
+[2023.10.05-12.36.00:480][404]LogFileHelpers: Auto-saving content packages took 0.261
+[2023.10.05-12.57.35:926][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.10.05-12.57.35:931][279]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto6
+[2023.10.05-12.57.35:931][279]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519O_Auto629F169404BA31F8B57BEE8AB1394145F.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto6.uasset'
+[2023.10.05-12.57.35:932][279]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.075
+[2023.10.05-12.57.35:932][279]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.075
+[2023.10.05-12.59.00:496][136]Cmd: DELETE
+[2023.10.05-12.59.00:513][136]Cmd: ACTOR DELETE
+[2023.10.05-12.59.00:888][136]LogEditorActor: Deleted Actor: BP_Pickup_Rifle_C
+[2023.10.05-12.59.00:961][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.10.05-12.59.00:965][136]LogEditorActor: Deleted 1 Actors (0.129 secs)
+[2023.10.05-12.59.04:438][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.10.05-12.59.04:794][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.59.05:098][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.10.05-12.59.05:167][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.05-12.59.05:236][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.05-12.59.05:565][308]SourceControl: Error: Updated 0 paths from the index
+[2023.10.05-12.59.05:808][308]SourceControl: rm 'TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2023.10.05-12.59.05:812][308]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O
+[2023.10.05-12.59.05:813][308]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519O3ECC29CD49DAC884806EB5BDEF85D18B.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O.uasset'
+[2023.10.05-12.59.05:826][308]LogSavePackage: Moving output files for package: /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon
+[2023.10.05-12.59.05:827][308]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BPC_NPC_DemonD7201F1E487144B3D403CFBBB2A90F39.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.uasset'
+[2023.10.05-12.59.05:834][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.03 sec (total: 5.46 sec)
+[2023.10.05-12.59.05:851][308]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.59.05:851][308]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon
+[2023.10.05-12.59.05:851][308]LogContentValidation: Display: Validating /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BPC_NPC_Demon_C_UAID_FC3497E54BE790AF01_1167933303
+[2023.10.05-13.01.15:171][ 98]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Hacha/SM_Hacha.SM_Hacha
+[2023.10.05-13.01.15:176][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-13.01.15:702][ 98]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.10.05-13.01.32:544][961]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-13.01.32:544][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-13.28.32:313][942]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.05-13.34.04:574][381]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.139 and deleted 0 files with total size 0 MiB. Scanned 5012 files in 4972 folders with total size 595 MiB.
