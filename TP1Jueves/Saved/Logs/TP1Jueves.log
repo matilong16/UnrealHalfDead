@@ -4098,3 +4098,48 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.10.04-21.37.14:014][128]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter_Auto93C32158D4B170C6855F61B9F05BA705E.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto9.uasset'
 [2023.10.04-21.37.14:015][128]LogFileHelpers: Auto-saving content packages took 0.138
 [2023.10.04-21.38.37:434][121]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.048 and deleted 0 files with total size 0 MiB. Scanned 4761 files in 4726 folders with total size 566 MiB.
+[2023.10.04-22.38.36:545][294]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.158 and deleted 0 files with total size 0 MiB. Scanned 4761 files in 4726 folders with total size 566 MiB.
+[2023.10.04-22.51.39:888][643]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.04-22.54.00:587][ 63]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.04-23.23.15:357][307]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.04-23.27.22:039][828]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.04-23.38.37:727][843]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.338 and deleted 0 files with total size 0 MiB. Scanned 4761 files in 4726 folders with total size 566 MiB.
+[2023.10.04-23.55.07:016][803]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.04-23.56.48:704][103]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.05-00.27.57:995][783]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.05-00.27.58:024][783]LogAudioMixer: Warning: Audio Thread Command from SetListenerTransforms()() took 39.049500 milleseconds to execute
+[2023.10.05-00.30.55:433][292]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.05-00.31.50:638][487]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/FirstPerson/Input/Actions/IA_PickUp.IA_PickUp
+[2023.10.05-00.32.26:116][684]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/FirstPerson/Input/Actions/IA_Jump.IA_Jump
+[2023.10.05-00.33.20:986][299]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Weapons.IMC_Weapons
+[2023.10.05-00.33.27:272][827]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2023.10.05-00.38.36:833][116]LogDerivedDataCache: C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.442 and deleted 0 files with total size 0 MiB. Scanned 4761 files in 4726 folders with total size 566 MiB.
+[2023.10.05-00.49.48:736][518]LogUObjectHash: Compacting FUObjectHashTables data took  52.74ms
+[2023.10.05-00.49.49:707][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-00.49.50:390][518]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2023.10.05-00.49.50:392][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/EAHCBN229IT8APJO305AH520E5980B40EEF51C699CCCABB09B86EF.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2023.10.05-00.49.50:726][518]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/86/0OU2AMBBSV50F5W5VKGSET
+[2023.10.05-00.49.50:726][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/0OU2AMBBSV50F5W5VKGSET5B3B828B447001B0D51F8FB4305D50DB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/86/0OU2AMBBSV50F5W5VKGSET.uasset'
+[2023.10.05-00.49.51:071][518]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.05-00.49.51:072][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter9626CA7E4754260927E3F1A0EE9235BA.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.05-00.49.51:098][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_Raughness_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Raughness_2k.uasset" SILENT=true
+[2023.10.05-00.49.51:432][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_Raughness_2k
+[2023.10.05-00.49.51:432][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_Raughness_2kD41A7E824A743358E56C2FA1400976E5.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Raughness_2k.uasset'
+[2023.10.05-00.49.51:433][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_Normal_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Normal_2k.uasset" SILENT=true
+[2023.10.05-00.49.51:695][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_Normal_2k
+[2023.10.05-00.49.51:695][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_Normal_2kA402C41442530FA313ED6B97DD3549AC.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Normal_2k.uasset'
+[2023.10.05-00.49.51:699][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_Ambient_Occlusion_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Ambient_Occlusion_2k.uasset" SILENT=true
+[2023.10.05-00.49.51:782][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_Ambient_Occlusion_2k
+[2023.10.05-00.49.51:782][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_Ambient_Occlusion_2kBC21A5264F3A1504A7F8EFB32EF09549.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Ambient_Occlusion_2k.uasset'
+[2023.10.05-00.49.51:783][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_BaseColor_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_BaseColor_2k.uasset" SILENT=true
+[2023.10.05-00.49.52:059][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_BaseColor_2k
+[2023.10.05-00.49.52:059][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_BaseColor_2k49470910424A867085641BB8E0E5A0DB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_BaseColor_2k.uasset'
+[2023.10.05-00.49.52:061][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_Cavity_mask_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Cavity_mask_2k.uasset" SILENT=true
+[2023.10.05-00.49.52:104][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_Cavity_mask_2k
+[2023.10.05-00.49.52:104][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_Cavity_mask_2k0626C241400F53526C6BA9BA4F37DC5D.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Cavity_mask_2k.uasset'
+[2023.10.05-00.49.52:106][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hacha/Battle_ax_Metalic_2k" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Metalic_2k.uasset" SILENT=true
+[2023.10.05-00.49.52:130][518]LogSavePackage: Moving output files for package: /Game/Hacha/Battle_ax_Metalic_2k
+[2023.10.05-00.49.52:130][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Battle_ax_Metalic_2k08071F9B4887EDBC1C8932973283FD43.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Hacha/Battle_ax_Metalic_2k.uasset'
+[2023.10.05-00.49.52:464][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset" SILENT=true
+[2023.10.05-00.49.52:532][518]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hacha
+[2023.10.05-00.49.52:533][518]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_HachaBFBB32514F162ACD05DB13B36FFE69C9.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset'
