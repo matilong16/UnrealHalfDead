@@ -3438,38 +3438,3 @@ If checked into source control this would affect other developers.
 [2023.10.04-05.10.17:183][441]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2023.10.04-05.10.17:183][441]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2023.10.04-05.10.17:184][441]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
-[2023.10.04-05.10.20:426][441]LogWindows: Error: === Critical error: ===
-[2023.10.04-05.10.20:426][441]LogWindows: Error: 
-[2023.10.04-05.10.20:426][441]LogWindows: Error: Fatal error!
-[2023.10.04-05.10.20:426][441]LogWindows: Error: 
-[2023.10.04-05.10.20:426][441]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
-[2023.10.04-05.10.20:426][441]LogWindows: Error: 
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff9b34d90b0 ntdll.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8e82cb11f amdxc64.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8e831e6e3 amdxc64.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8ed4d16ae D3D12Core.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8ed484e4c D3D12Core.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff98a9c6035 d3d12.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff98a9c6d9b d3d12.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff98a9c6900 d3d12.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff98a9c5fac d3d12.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8ed4857e1 D3D12Core.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8eda801b9 UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8eda8f806 UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8edb188f6 UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8eda309fa UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8edb16a74 UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff8edb080ef UnrealEditor-D3D12RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff94e35d87e UnrealEditor-RHI.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e11c40 UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e1290c UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e1296a UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e15680 UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e271b4 UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff672e2a516 UnrealEditor.exe!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff9b1fc7344 KERNEL32.DLL!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: [Callstack] 0x00007ff9b35026b1 ntdll.dll!UnknownFunction []
-[2023.10.04-05.10.20:426][441]LogWindows: Error: 
-[2023.10.04-05.10.20:440][441]LogWindows: FPlatformMisc::RequestExit(1)
-[2023.10.04-05.10.20:440][441]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
-[2023.10.04-05.10.20:440][441]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
