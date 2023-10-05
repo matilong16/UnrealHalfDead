@@ -3634,3 +3634,41 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.05-13.52.38:477][388]LogContentValidation: Display: Validating /Game/Blueprints/BP_Hacha.BP_Hacha_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081
 [2023.10.05-13.53.27:138][ 86]BlueprintLog: New page: Compile BPC_NPC_Demon
 [2023.10.05-13.53.27:244][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.10.05-13.55.32:511][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.10.05-13.55.32:516][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto7
+[2023.10.05-13.55.32:516][820]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519O_Auto72C0504BC445087FB5D8D20B09F8AA517.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O_Auto7.uasset'
+[2023.10.05-13.55.32:517][820]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.084
+[2023.10.05-13.55.32:517][820]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.084
+[2023.10.05-13.55.32:518][820]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2023.10.05-13.55.32:738][820]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2023.10.05-13.55.32:738][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2023.10.05-13.55.32:765][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto7
+[2023.10.05-13.55.32:765][820]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter_Auto74D196752429D256471693BB0D27B7031.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto7.uasset'
+[2023.10.05-13.55.32:766][820]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon] ([2] browsable assets)...
+[2023.10.05-13.55.33:004][820]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon]
+[2023.10.05-13.55.33:004][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon]
+[2023.10.05-13.55.33:018][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon_Auto7
+[2023.10.05-13.55.33:018][820]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BPC_NPC_Demon_Auto7630577F948C85CE0CE0E1188D469C307.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon_Auto7.uasset'
+[2023.10.05-13.55.33:019][820]LogFileHelpers: Auto-saving content packages took 0.501
+[2023.10.05-13.55.37:931][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.05-13.55.38:179][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-13.55.38:242][134]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O
+[2023.10.05-13.55.38:243][134]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519OAAAF8F2E456CF743FF0B4784F91BC108.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O.uasset'
+[2023.10.05-13.55.38:270][134]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.05-13.55.38:270][134]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter6CE8B005455DAD51F97B9F8F5689D11B.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.05-13.55.38:284][134]LogSavePackage: Moving output files for package: /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon
+[2023.10.05-13.55.38:285][134]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BPC_NPC_DemonFEA71CC0411EC9388AB0A784BC7E9EEE.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.uasset'
+[2023.10.05-13.55.38:293][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 5.80 sec)
+[2023.10.05-13.55.38:342][134]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-13.55.38:342][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.05-13.55.38:342][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon
+[2023.10.05-13.55.38:342][134]LogContentValidation: Display: Validating /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BPC_NPC_Demon_C_UAID_FC3497E54BE790AF01_1167933303
+[2023.10.05-13.55.38:755][173]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.05-13.55.38:950][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.10.05-13.55.43:796][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.10.05-13.55.43:929][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-13.55.43:973][633]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/0D/JRH61G2N37PM3T6CXNNZ0W
+[2023.10.05-13.55.43:974][633]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/JRH61G2N37PM3T6CXNNZ0W7B85199646D3020DFDB65390A30961AB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/0D/JRH61G2N37PM3T6CXNNZ0W.uasset'
+[2023.10.05-13.55.43:984][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 5.85 sec)
+[2023.10.05-13.55.43:995][633]AssetCheck: New page: Asset Save: Trampa_C_UAID_FC3497E2C17843AF01_2075527751
+[2023.10.05-13.55.43:995][633]LogContentValidation: Display: Validating /Game/Trampa/Trampa.Trampa_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Trampa_C_UAID_FC3497E2C17843AF01_2075527751
