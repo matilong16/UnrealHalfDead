@@ -2864,3 +2864,488 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.05-12.11.58:067][ 20]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1146718433
 [2023.10.05-12.11.58:067][ 20]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/IA_Interact.IA_Interact
 [2023.10.05-12.11.58:074][ 21]LogAutomationController: Ignoring very large delta of 5.78 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.05-12.14.16:315][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.10.05-12.14.16:317][481]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.059
+[2023.10.05-12.14.16:317][481]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2023.10.05-12.14.16:336][481]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2023.10.05-12.14.16:336][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2023.10.05-12.14.16:359][481]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto3
+[2023.10.05-12.14.16:359][481]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter_Auto327F52378418F443DDA3F8584E446C6A1.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto3.uasset'
+[2023.10.05-12.14.16:360][481]LogFileHelpers: Auto-saving content packages took 0.044
+[2023.10.05-12.14.25:133][147]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Hacha.BP_Hacha
+[2023.10.05-12.14.25:134][147]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.14.45:240][409]BlueprintLog: New page: Compile BP_Puerta
+[2023.10.05-12.14.45:369][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.10.05-12.14.45:551][415]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_FC3497E54BE796AD01-Default).
+[2023.10.05-12.14.47:706][660]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-12.14.47:712][660]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.10.05-12.14.47:715][660]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.05-12.14.47:715][660]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.05-12.14.47:715][660]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 121 us)
+[2023.10.05-12.14.47:716][660]LogWorldPartition: Display: GenerateStreaming took 328 us (total: 17 ms)
+[2023.10.05-12.14.47:716][660]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.05-12.14.47:721][660]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
+[2023.10.05-12.14.47:738][660]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2023.10.05-12.14.47:995][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.10.05-12.14.47:996][660]LogPlayLevel: PlayLevel: Blueprint regeneration took 280 ms (2 blueprints)
+[2023.10.05-12.14.47:996][660]PIE: New page: PIE session: FirstPersonMap (Oct 5, 2023, 6:14:47 AM)
+[2023.10.05-12.14.47:996][660]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.14.48:008][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011762s)
+[2023.10.05-12.14.48:008][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011794s)
+[2023.10.05-12.14.48:008][660]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.14.48:009][660]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.05-12.14.48:009][660]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.10.05-12.14.48:009][660]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.05-12.14.48:009][660]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.05-12.14.48:012][660]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.10.05-12.14.48:012][660]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.74 sec)
+[2023.10.05-12.14.48:012][660]LogPlayLevel: PIE: World Init took: (0.003848s)
+[2023.10.05-12.14.48:068][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.10.05-12.14.48:069][660]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-12.14.48:069][660]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-12.14.48:069][660]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-12.14.48:070][660]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-12.14.48:070][660]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-12.14.48:070][660]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-12.14.48:072][660]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.05-12.14.48:099][660]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (USB Audio Device)
+[2023.10.05-12.14.48:099][660]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-12.14.48:099][660]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-12.14.48:099][660]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-12.14.48:101][660]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.10.05-12.14.48:101][660]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.10.05-12.14.48:102][660]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.10.05-12.14.48:102][660]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.10.05-12.14.48:102][660]LogInit: FAudioDevice initialized.
+[2023.10.05-12.14.48:102][660]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonMap'.
+[2023.10.05-12.14.48:158][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.14.48:158][660]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.05-12.14.48:163][660]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.05-09.14.48
+[2023.10.05-12.14.48:164][660]LogWorld: Bringing up level for play took: 0.005447
+[2023.10.05-12.14.48:166][660]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.10.05-12.14.48:168][660]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-1194.914 Y=3780.748 Z=910.105
+[2023.10.05-12.14.48:196][660]PIE: Server logged in
+[2023.10.05-12.14.48:197][660]PIE: Play in editor total start time 0.484 seconds.
+[2023.10.05-12.14.48:208][660]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.10.05-12.14.59:070][296]LogBlueprintUserMessages: [BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081] ItemPickedUp
+[2023.10.05-12.15.30:212][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.15.30:212][374]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.15.30:213][374]LogSlate: Window 'TP1Jueves Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.10.05-12.15.30:219][374]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.15.30:221][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.15.30:221][374]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.10.05-12.15.30:227][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-12.15.30:236][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.15.30:295][374]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.10.05-12.15.30:297][374]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.10.05-12.15.30:307][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.10.05-12.15.30:333][375]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.10.05-12.15.30:392][382]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_FC3497E54BE796AD01-Default).
+[2023.10.05-12.15.45:948][141]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-12.15.45:955][141]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.10.05-12.15.45:958][141]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.05-12.15.45:958][141]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.05-12.15.45:958][141]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 126 us)
+[2023.10.05-12.15.45:959][141]LogWorldPartition: Display: GenerateStreaming took 378 us (total: 17 ms)
+[2023.10.05-12.15.45:959][141]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.05-12.15.45:964][141]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
+[2023.10.05-12.15.45:969][141]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2023.10.05-12.15.46:214][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.10.05-12.15.46:215][141]LogPlayLevel: PlayLevel: Blueprint regeneration took 256 ms (2 blueprints)
+[2023.10.05-12.15.46:215][141]PIE: New page: PIE session: FirstPersonMap (Oct 5, 2023, 6:15:46 AM)
+[2023.10.05-12.15.46:215][141]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.15.46:226][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010951s)
+[2023.10.05-12.15.46:226][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010985s)
+[2023.10.05-12.15.46:226][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.15.46:227][141]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.05-12.15.46:227][141]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.10.05-12.15.46:227][141]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.05-12.15.46:227][141]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.05-12.15.46:230][141]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.10.05-12.15.46:230][141]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.74 sec)
+[2023.10.05-12.15.46:230][141]LogPlayLevel: PIE: World Init took: (0.003908s)
+[2023.10.05-12.15.46:284][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.10.05-12.15.46:285][141]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-12.15.46:285][141]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-12.15.46:285][141]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-12.15.46:286][141]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-12.15.46:286][141]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-12.15.46:286][141]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-12.15.46:288][141]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.05-12.15.46:314][141]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (USB Audio Device)
+[2023.10.05-12.15.46:315][141]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-12.15.46:315][141]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-12.15.46:315][141]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-12.15.46:315][141]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.10.05-12.15.46:315][141]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.10.05-12.15.46:317][141]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.10.05-12.15.46:317][141]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.10.05-12.15.46:317][141]LogInit: FAudioDevice initialized.
+[2023.10.05-12.15.46:317][141]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonMap'.
+[2023.10.05-12.15.46:369][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.15.46:369][141]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.05-12.15.46:374][141]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.05-09.15.46
+[2023.10.05-12.15.46:375][141]LogWorld: Bringing up level for play took: 0.005336
+[2023.10.05-12.15.46:377][141]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.10.05-12.15.46:379][141]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-1194.914 Y=3780.748 Z=910.105
+[2023.10.05-12.15.46:409][141]PIE: Server logged in
+[2023.10.05-12.15.46:409][141]PIE: Play in editor total start time 0.455 seconds.
+[2023.10.05-12.15.46:478][141]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.10.05-12.15.57:252][885]LogBlueprintUserMessages: [BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081] ItemPickedUp
+[2023.10.05-12.16.04:338][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.16.04:338][440]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.16.04:339][440]LogSlate: Window 'TP1Jueves Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.10.05-12.16.04:345][440]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.16.04:346][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.16.04:346][440]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.10.05-12.16.04:380][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-12.16.04:387][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.16.04:444][440]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-12.16.04:446][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.10.05-12.16.04:447][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.10.05-12.16.04:458][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.10.05-12.16.04:541][441]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.10.05-12.16.04:600][448]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_FC3497E54BE796AD01-Default).
+[2023.10.05-12.16.11:519][256]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.05-12.16.11:658][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.10.05-12.16.11:886][262]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_FC3497E54BE796AD01-Default).
+[2023.10.05-12.16.12:497][332]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.05-12.16.12:504][332]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.10.05-12.16.12:507][332]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.05-12.16.12:507][332]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.05-12.16.12:507][332]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 132 us)
+[2023.10.05-12.16.12:507][332]LogWorldPartition: Display: GenerateStreaming took 312 us (total: 18 ms)
+[2023.10.05-12.16.12:507][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.05-12.16.12:507][332]PIE: New page: PIE session: FirstPersonMap (Oct 5, 2023, 6:16:12 AM)
+[2023.10.05-12.16.12:507][332]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.16.12:518][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010948s)
+[2023.10.05-12.16.12:518][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010983s)
+[2023.10.05-12.16.12:518][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.16.12:519][332]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.05-12.16.12:519][332]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.10.05-12.16.12:519][332]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.05-12.16.12:519][332]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.05-12.16.12:522][332]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.10.05-12.16.12:522][332]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.74 sec)
+[2023.10.05-12.16.12:522][332]LogPlayLevel: PIE: World Init took: (0.003742s)
+[2023.10.05-12.16.12:581][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.10.05-12.16.12:582][332]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.05-12.16.12:582][332]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.05-12.16.12:582][332]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.05-12.16.12:583][332]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.05-12.16.12:583][332]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.05-12.16.12:583][332]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.05-12.16.12:585][332]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.05-12.16.12:611][332]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (USB Audio Device)
+[2023.10.05-12.16.12:611][332]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.05-12.16.12:611][332]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.05-12.16.12:611][332]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.05-12.16.12:612][332]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.10.05-12.16.12:612][332]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.10.05-12.16.12:614][332]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.10.05-12.16.12:614][332]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.10.05-12.16.12:614][332]LogInit: FAudioDevice initialized.
+[2023.10.05-12.16.12:614][332]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2023.10.05-12.16.12:663][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.16.12:663][332]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.05-12.16.12:668][332]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.05-09.16.12
+[2023.10.05-12.16.12:669][332]LogWorld: Bringing up level for play took: 0.005042
+[2023.10.05-12.16.12:671][332]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.10.05-12.16.12:673][332]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-1194.914 Y=3780.748 Z=910.105
+[2023.10.05-12.16.12:703][332]PIE: Server logged in
+[2023.10.05-12.16.12:705][332]PIE: Play in editor total start time 0.202 seconds.
+[2023.10.05-12.16.12:717][332]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.10.05-12.16.22:178][ 15]LogBlueprintUserMessages: [BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081] ItemPickedUp
+[2023.10.05-12.16.29:563][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.05-12.16.29:563][580]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.05-12.16.29:565][580]LogSlate: Window 'TP1Jueves Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.10.05-12.16.29:571][580]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.16.29:573][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.16.29:573][580]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.10.05-12.16.29:606][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.05-12.16.29:613][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.16.29:670][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.05-12.16.29:671][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.10.05-12.16.29:673][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.10.05-12.16.29:682][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.05-12.16.29:764][581]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.10.05-12.16.48:646][750]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.05-12.16.48:646][750]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.05-12.16.48:646][750]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.05-12.17.00:188][ 78]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Sample/Bluprints/InterfacePuerta.InterfacePuerta
+[2023.10.05-12.17.00:188][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.17.00:196][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.17.00:208][ 78]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.10.05-12.17.00:723][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.10.05-12.17.00:723][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.10.05-12.17.01:635][ 78]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.10.05-12.17.01:661][ 78]LogSlate: Took 0.014869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.10.05-12.17.20:356][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.10.05-12.17.20:582][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.17.20:642][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InterfacePuerta" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/InterfacePuerta.uasset" SILENT=true
+[2023.10.05-12.17.20:646][ 82]LogSavePackage: Moving output files for package: /Game/InterfacePuerta
+[2023.10.05-12.17.20:646][ 82]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/InterfacePuertaCA5637184839944C10A272BC95D99066.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/InterfacePuerta.uasset'
+[2023.10.05-12.17.20:911][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 329 ms (total: 2.19 sec)
+[2023.10.05-12.17.21:408][ 82]AssetCheck: New page: Asset Save: InterfacePuerta
+[2023.10.05-12.17.21:408][ 82]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/InterfacePuerta.InterfacePuerta
+[2023.10.05-12.17.31:817][284]LogContentBrowser: Attempting asset rename: InterfacePuerta -> Interface_Hacha
+[2023.10.05-12.17.32:564][284]LogMetaData: Removing '/Game/Interface_Hacha.SKEL_Interface_Hacha_C' ref from Metadata '/Game/InterfacePuerta.PackageMetaData'
+[2023.10.05-12.17.32:564][284]LogMetaData: Removing '/Game/Interface_Hacha.Interface_Hacha_C' ref from Metadata '/Game/InterfacePuerta.PackageMetaData'
+[2023.10.05-12.17.32:564][284]LogMetaData: Removing '/Game/Interface_Hacha.SKEL_Interface_Hacha_C:PreConstruct' ref from Metadata '/Game/InterfacePuerta.PackageMetaData'
+[2023.10.05-12.17.32:564][284]LogMetaData: Removing '/Game/Interface_Hacha.SKEL_Interface_Hacha_C:Construct' ref from Metadata '/Game/InterfacePuerta.PackageMetaData'
+[2023.10.05-12.17.32:564][284]LogMetaData: Removing '/Game/Interface_Hacha.SKEL_Interface_Hacha_C:Tick' ref from Metadata '/Game/InterfacePuerta.PackageMetaData'
+[2023.10.05-12.17.32:567][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.17.32:621][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Interface_Hacha.uasset" SILENT=true
+[2023.10.05-12.17.32:623][284]LogSavePackage: Moving output files for package: /Game/Interface_Hacha
+[2023.10.05-12.17.32:623][284]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Interface_HachaAF992D744E636FAFB6A8B49E0F4F56F1.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Interface_Hacha.uasset'
+[2023.10.05-12.17.32:843][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 276 ms (total: 2.47 sec)
+[2023.10.05-12.17.33:240][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.10.05-12.17.33:314][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.10.05-12.17.33:383][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.10.05-12.17.33:576][284]SourceControl: rm 'TP1Jueves/Content/InterfacePuerta.uasset'
+[2023.10.05-12.17.33:586][284]AssetCheck: New page: Asset Save: Interface_Hacha
+[2023.10.05-12.17.33:586][284]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Interface_Hacha.Interface_Hacha
+[2023.10.05-12.17.45:980][720]BlueprintLog: New page: Compile InterfacePuerta
+[2023.10.05-12.17.46:088][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.10.05-12.17.46:298][726]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_FC3497E54BE796AD01-Default).
+[2023.10.05-12.17.56:294][880]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.17.56:294][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.18.34:007][ 63]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Hacha.BP_Hacha
+[2023.10.05-12.18.34:007][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.19.32:492][130]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.19.32:492][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.19.32:511][130]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.19.32:511][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.19.44:072][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.10.05-12.19.45:893][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.19.45:950][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BK/KLX8T925FP2XTZL2NHK4IO
+[2023.10.05-12.19.45:951][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/KLX8T925FP2XTZL2NHK4IOA8B8C6774B4165CFBB3ECF8493655B5B.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BK/KLX8T925FP2XTZL2NHK4IO.uasset'
+[2023.10.05-12.19.45:954][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/FS/QYGE8IB7G2VA3BLBPTUW1P
+[2023.10.05-12.19.45:955][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/QYGE8IB7G2VA3BLBPTUW1P9453749B4AF97B36AFAFB8AE4812FCE6.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/FS/QYGE8IB7G2VA3BLBPTUW1P.uasset'
+[2023.10.05-12.19.45:958][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/86/WEFY6DOTWV0BBL2CGI5AMG
+[2023.10.05-12.19.45:959][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/WEFY6DOTWV0BBL2CGI5AMG923BC1D24FEB338B1CE5CFBDFA16286E.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/86/WEFY6DOTWV0BBL2CGI5AMG.uasset'
+[2023.10.05-12.19.45:962][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HE/BX02NJNYTZB7RDZCG8CWW2
+[2023.10.05-12.19.45:963][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BX02NJNYTZB7RDZCG8CWW2E47024D24EEB6FFA44B3E5836D01E286.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HE/BX02NJNYTZB7RDZCG8CWW2.uasset'
+[2023.10.05-12.19.45:966][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/RH/Q1XM5V3CFW2IY3RPKZUJBP
+[2023.10.05-12.19.45:967][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Q1XM5V3CFW2IY3RPKZUJBPB2A51D90499005A59A8104B2D3854BC6.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/RH/Q1XM5V3CFW2IY3RPKZUJBP.uasset'
+[2023.10.05-12.19.45:970][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/WM/I23G69HGAVAYIUUDZ8Y46Y
+[2023.10.05-12.19.45:971][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/I23G69HGAVAYIUUDZ8Y46YB0431DE3423911BFA014AC9DDE4AFB25.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/WM/I23G69HGAVAYIUUDZ8Y46Y.uasset'
+[2023.10.05-12.19.45:974][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/WC/OR558XAVPMC0QPU7VO2L76
+[2023.10.05-12.19.45:975][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/OR558XAVPMC0QPU7VO2L76CE0809754EC33F255B94BE8B98D0F846.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/WC/OR558XAVPMC0QPU7VO2L76.uasset'
+[2023.10.05-12.19.45:978][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/L1/VP65U0ZGQQ9WN1LIYZZ44I
+[2023.10.05-12.19.45:979][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/VP65U0ZGQQ9WN1LIYZZ44I8946263B41A972B5150EC4A69CFD0724.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/L1/VP65U0ZGQQ9WN1LIYZZ44I.uasset'
+[2023.10.05-12.19.45:982][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QM/6CJWNPTSBAXL0TO9TT7QNM
+[2023.10.05-12.19.45:982][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/6CJWNPTSBAXL0TO9TT7QNM2059611A4AF8B2CFB3B791B72EEF481A.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/QM/6CJWNPTSBAXL0TO9TT7QNM.uasset'
+[2023.10.05-12.19.45:985][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XG/S1XINBPOEDYMM0K73F7OLL
+[2023.10.05-12.19.45:985][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/S1XINBPOEDYMM0K73F7OLL0AE169C54C17C62F33E84D9C0B72E27C.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XG/S1XINBPOEDYMM0K73F7OLL.uasset'
+[2023.10.05-12.19.45:988][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/K1/3EMHW15SSLEHD11OX1W5RT
+[2023.10.05-12.19.45:989][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/3EMHW15SSLEHD11OX1W5RT8B5482ED41969618DA5F31AC627C4E4F.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/K1/3EMHW15SSLEHD11OX1W5RT.uasset'
+[2023.10.05-12.19.45:992][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/R2/2SL7ODGVLUHEF6RNFRJJN4
+[2023.10.05-12.19.45:993][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/2SL7ODGVLUHEF6RNFRJJN4DD1005084A123480472E2EA81E814693.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/R2/2SL7ODGVLUHEF6RNFRJJN4.uasset'
+[2023.10.05-12.19.45:996][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/CO/TW325W5PQHNIE7JSM4FDJS
+[2023.10.05-12.19.45:997][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/TW325W5PQHNIE7JSM4FDJS5416F93B43E700109AA25F8A96F28ABE.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/CO/TW325W5PQHNIE7JSM4FDJS.uasset'
+[2023.10.05-12.19.46:000][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HE/9VW8OKDX2JNMI29X7WTZAL
+[2023.10.05-12.19.46:000][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/9VW8OKDX2JNMI29X7WTZAL5B51134949CFE8B0E1DEA09377951D97.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HE/9VW8OKDX2JNMI29X7WTZAL.uasset'
+[2023.10.05-12.19.46:004][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/9Z/NCT902HFDMF0GCCPZBR3XO
+[2023.10.05-12.19.46:004][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/NCT902HFDMF0GCCPZBR3XO61E11E864C35782F53D3169E1DF9DB66.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/9Z/NCT902HFDMF0GCCPZBR3XO.uasset'
+[2023.10.05-12.19.46:007][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AS/6WLFRA9RVNVSL9LEGN6FPQ
+[2023.10.05-12.19.46:008][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/6WLFRA9RVNVSL9LEGN6FPQDF9A07804EEF51B3F1C6A2B5A049002E.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AS/6WLFRA9RVNVSL9LEGN6FPQ.uasset'
+[2023.10.05-12.19.46:011][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Y6/NN1DWM5GHRMBQ60FC188DB
+[2023.10.05-12.19.46:012][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/NN1DWM5GHRMBQ60FC188DB73AA544C4D80E776AACD2D988C075F15.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Y6/NN1DWM5GHRMBQ60FC188DB.uasset'
+[2023.10.05-12.19.46:015][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7Q/H5J9FWWFXZQPBP1XEV7JB0
+[2023.10.05-12.19.46:016][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/H5J9FWWFXZQPBP1XEV7JB0C93D93874E40AD8240738E92FEF3F9DA.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/7Q/H5J9FWWFXZQPBP1XEV7JB0.uasset'
+[2023.10.05-12.19.46:019][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/AA/MXZFK4ZTI70HXK5SSP0H37
+[2023.10.05-12.19.46:020][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/MXZFK4ZTI70HXK5SSP0H3718DAA92A457DB2D2736995A20F9B2650.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/AA/MXZFK4ZTI70HXK5SSP0H37.uasset'
+[2023.10.05-12.19.46:023][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/HF/MFSGHALV5V1AOE60CDNTN5
+[2023.10.05-12.19.46:024][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/MFSGHALV5V1AOE60CDNTN57D45D81148AC43C1A2B08AA4AD29A3DB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/HF/MFSGHALV5V1AOE60CDNTN5.uasset'
+[2023.10.05-12.19.46:027][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/86/0OU2AMBBSV50F5W5VKGSET
+[2023.10.05-12.19.46:027][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/0OU2AMBBSV50F5W5VKGSET95DA925743273F2B7053E7A307F693BD.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/86/0OU2AMBBSV50F5W5VKGSET.uasset'
+[2023.10.05-12.19.46:031][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S9/BTO8VJWAOBXX27EHGGTFA1
+[2023.10.05-12.19.46:031][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BTO8VJWAOBXX27EHGGTFA1A897CD0043EB32144501C0A20D00513C.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/S9/BTO8VJWAOBXX27EHGGTFA1.uasset'
+[2023.10.05-12.19.46:034][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0U/N91L7V3DKRMFPNCSGOVUWS
+[2023.10.05-12.19.46:035][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/N91L7V3DKRMFPNCSGOVUWSE0905E934458702A702641BFB14C85D0.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0U/N91L7V3DKRMFPNCSGOVUWS.uasset'
+[2023.10.05-12.19.46:038][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/P0/L5ACLZOIVTCE6XD4X5F4AL
+[2023.10.05-12.19.46:039][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/L5ACLZOIVTCE6XD4X5F4AL2925445746898CFA80914A971C85D63D.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/P0/L5ACLZOIVTCE6XD4X5F4AL.uasset'
+[2023.10.05-12.19.46:042][502]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/Q6/FDGO7QGNBSWV8P829P7EH9
+[2023.10.05-12.19.46:043][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/FDGO7QGNBSWV8P829P7EH9BC63AB704B73BF201FF4CAB68E1A7D0A.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/Q6/FDGO7QGNBSWV8P829P7EH9.uasset'
+[2023.10.05-12.19.46:110][502]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.05-12.19.46:111][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacterD5C956CE4090108E882F21B938B9AAFD.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.05-12.19.46:142][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset" SILENT=true
+[2023.10.05-12.19.46:148][502]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hacha
+[2023.10.05-12.19.46:149][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_Hacha79F32EFC4C74A4462847498710440165.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Blueprints/BP_Hacha.uasset'
+[2023.10.05-12.19.46:156][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sample/Bluprints/InterfacePuerta" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Sample/Bluprints/InterfacePuerta.uasset" SILENT=true
+[2023.10.05-12.19.46:159][502]LogSavePackage: Moving output files for package: /Game/Sample/Bluprints/InterfacePuerta
+[2023.10.05-12.19.46:160][502]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/InterfacePuertaD7AAFF8B492D4DF7E6B4B9A0CEE2DAB2.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Sample/Bluprints/InterfacePuerta.uasset'
+[2023.10.05-12.19.46:169][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 275 ms (total: 2.74 sec)
+[2023.10.05-12.19.46:194][502]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hacha.BP_Hacha
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Sample/Bluprints/InterfacePuerta.InterfacePuerta
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1146718433
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1457535446
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1160984434
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1421542444
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1107487431
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1186002435
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1434399445
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1472377447
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1092609430
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB295AD01_1099242073
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1227623436
+[2023.10.05-12.19.46:194][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB296AD01_2129904253
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB296AD01_2089907252
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1406058443
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1131311432
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1344642440
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1299426439
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1253178437
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1523657449
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1273632438
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1354496441
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB296AD01_2072175251
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1486223448
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Sample/Bluprints/BP_Puerta.BP_Puerta_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Puerta_C_UAID_E0D55ED8DBB297AD01_1375406442
+[2023.10.05-12.19.46:195][502]LogContentValidation: Display: Validating /Game/Blueprints/BP_Hacha.BP_Hacha_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hacha_C_UAID_309C23AD925F78AF01_2125852081
+[2023.10.05-12.19.46:199][503]LogAutomationController: Ignoring very large delta of 2.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.05-12.19.52:796][961]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.19.52:796][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.19.53:828][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.10.05-12.19.53:828][ 74]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.19.53:828][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.19.56:474][323]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.05-12.19.56:649][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.10.05-12.20.15:802][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.20.15:860][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.15:861][829]LogSavePackage: Moving output files for package: /Game/FirstPerson/IA_Interact
+[2023.10.05-12.20.15:861][829]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_Interact0AEAC8F040452E5848CAFF834E56D943.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/IA_Interact.uasset'
+[2023.10.05-12.20.15:862][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.15:863][829]LogSavePackage: Moving output files for package: /Game/IA_Interact
+[2023.10.05-12.20.15:863][829]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_InteractE59DAF2947DD0C1B15BF6290FCEE1982.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset'
+[2023.10.05-12.20.16:075][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 272 ms (total: 3.02 sec)
+[2023.10.05-12.20.16:434][829]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.20.16:434][829]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/IA_Interact.IA_Interact
+[2023.10.05-12.20.16:434][829]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/IA_Interact.IA_Interact
+[2023.10.05-12.20.19:737][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.20.19:792][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.19:793][  6]LogSavePackage: Moving output files for package: /Game/IA_Interact
+[2023.10.05-12.20.19:793][  6]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_Interact4B29B23049EB1911824BF3885D5D7580.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset'
+[2023.10.05-12.20.19:795][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Input/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.19:795][  6]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/IA_Interact
+[2023.10.05-12.20.19:795][  6]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_Interact5AFCB6654F20AC68D44DA3891D15F155.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/IA_Interact.uasset'
+[2023.10.05-12.20.20:032][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 294 ms (total: 3.31 sec)
+[2023.10.05-12.20.20:461][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.10.05-12.20.20:521][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.05-12.20.20:567][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.05-12.20.20:732][  6]SourceControl: rm 'TP1Jueves/Content/FirstPerson/IA_Interact.uasset'
+[2023.10.05-12.20.20:754][  6]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.20.20:754][  6]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/Input/IA_Interact.IA_Interact
+[2023.10.05-12.20.20:754][  6]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/IA_Interact.IA_Interact
+[2023.10.05-12.20.24:187][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.20.24:242][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.24:243][189]LogSavePackage: Moving output files for package: /Game/IA_Interact
+[2023.10.05-12.20.24:243][189]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_Interact89E98B53489CCA5168872892E7F5F76B.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/IA_Interact.uasset'
+[2023.10.05-12.20.24:245][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Input/Actions/IA_Interact" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_Interact.uasset" SILENT=true
+[2023.10.05-12.20.24:245][189]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/Actions/IA_Interact
+[2023.10.05-12.20.24:245][189]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/IA_Interact7408501744E378E05A9B6887A53A4227.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Input/Actions/IA_Interact.uasset'
+[2023.10.05-12.20.24:471][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 283 ms (total: 3.59 sec)
+[2023.10.05-12.20.24:777][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.05-12.20.24:826][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.10.05-12.20.24:872][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.05-12.20.25:047][189]SourceControl: rm 'TP1Jueves/Content/FirstPerson/Input/IA_Interact.uasset'
+[2023.10.05-12.20.25:070][189]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.20.25:070][189]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/Input/Actions/IA_Interact.IA_Interact
+[2023.10.05-12.20.25:070][189]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/IA_Interact.IA_Interact
+[2023.10.05-12.20.37:882][104]LogMetaData: Removing '/Game/HUD/Interface_Hacha.Interface_Hacha_C' ref from Metadata '/Game/Interface_Hacha.PackageMetaData'
+[2023.10.05-12.20.37:882][104]LogMetaData: Removing '/Game/HUD/Interface_Hacha.SKEL_Interface_Hacha_C' ref from Metadata '/Game/Interface_Hacha.PackageMetaData'
+[2023.10.05-12.20.37:882][104]LogMetaData: Removing '/Game/HUD/Interface_Hacha.SKEL_Interface_Hacha_C:PreConstruct' ref from Metadata '/Game/Interface_Hacha.PackageMetaData'
+[2023.10.05-12.20.37:882][104]LogMetaData: Removing '/Game/HUD/Interface_Hacha.SKEL_Interface_Hacha_C:Construct' ref from Metadata '/Game/Interface_Hacha.PackageMetaData'
+[2023.10.05-12.20.37:882][104]LogMetaData: Removing '/Game/HUD/Interface_Hacha.SKEL_Interface_Hacha_C:Tick' ref from Metadata '/Game/Interface_Hacha.PackageMetaData'
+[2023.10.05-12.20.37:883][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.20.37:941][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Interface_Hacha" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/HUD/Interface_Hacha.uasset" SILENT=true
+[2023.10.05-12.20.37:943][104]LogSavePackage: Moving output files for package: /Game/HUD/Interface_Hacha
+[2023.10.05-12.20.37:944][104]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Interface_HachaBDBDDB2440E316BAB1427B8A3B62826C.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/HUD/Interface_Hacha.uasset'
+[2023.10.05-12.20.38:165][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 281 ms (total: 3.88 sec)
+[2023.10.05-12.20.38:460][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.10.05-12.20.38:506][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.05-12.20.38:553][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.05-12.20.38:743][104]SourceControl: rm 'TP1Jueves/Content/Interface_Hacha.uasset'
+[2023.10.05-12.20.38:767][104]AssetCheck: New page: Asset Save: Interface_Hacha
+[2023.10.05-12.20.38:767][104]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HUD/Interface_Hacha.Interface_Hacha
+[2023.10.05-12.20.41:070][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PisoDanoConstant/BP_PisoDano.BP_PisoDano
+[2023.10.05-12.20.41:070][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.20.53:742][693]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.20.53:742][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.20.57:143][929]LogScript: Warning: Accessed None trying to read property As Trampa
+	NewAnimBlueprint_C /Engine/Transient.World_47:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_0
+	Function /Game/Trampa/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:005B
+[2023.10.05-12.21.00:214][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trampa/Trampa.Trampa
+[2023.10.05-12.21.00:214][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.22.41:524][710]LogWindows: LaunchURL https://docs.unrealengine.com/5.1/en/Engine/Blueprints?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2023.10.05-12.22.45:674][ 29]LogStaticMesh: Display: Building static mesh Floor_400x400...
+[2023.10.05-12.22.45:744][ 29]LogStaticMesh: Built static mesh [0.08s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.10.05-12.23.04:418][128]LogSlate: Took 0.016137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.10.05-12.25.59:452][690]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.10.05-12.25.59:464][690]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.101
+[2023.10.05-12.25.59:465][690]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2023.10.05-12.25.59:521][690]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2023.10.05-12.25.59:521][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2023.10.05-12.25.59:608][690]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto4
+[2023.10.05-12.25.59:608][690]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter_Auto4C4EA2693446BC2D42EFF54A6082E8FDB.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto4.uasset'
+[2023.10.05-12.25.59:612][690]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Sample/Bluprints/BP_Puerta] ([2] browsable assets)...
+[2023.10.05-12.25.59:640][690]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sample/Bluprints/BP_Puerta.BP_Puerta]
+[2023.10.05-12.25.59:640][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sample/Bluprints/BP_Puerta]
+[2023.10.05-12.25.59:653][690]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sample/Bluprints/BP_Puerta_Auto4
+[2023.10.05-12.25.59:654][690]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_Puerta_Auto4D8FD6DB64A5DBD37049EDEA7D0DE3009.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/Autosaves/Game/Sample/Bluprints/BP_Puerta_Auto4.uasset'
+[2023.10.05-12.25.59:661][690]LogFileHelpers: Auto-saving content packages took 0.196
+[2023.10.05-12.26.12:877][289]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.05-12.26.13:042][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.10.05-12.26.34:901][510]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.05-12.26.35:085][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.10.05-12.27.14:183][764]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon
+[2023.10.05-12.27.14:183][764]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.27.42:800][162]BlueprintLog: New page: Compile BPC_NPC_Demon
+[2023.10.05-12.27.42:901][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.10.05-12.27.47:949][429]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NPC/BP_NPC.BP_NPC
+[2023.10.05-12.27.47:949][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.05-12.28.14:325][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.10.05-12.28.14:700][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.05-12.28.14:760][615]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O
+[2023.10.05-12.28.14:761][615]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/7X2ATKY1XWPANYF749519OF523F4CF4EC2976431B1FF852FF8D961.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/8H/7X2ATKY1XWPANYF749519O.uasset'
+[2023.10.05-12.28.14:764][615]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/0D/JRH61G2N37PM3T6CXNNZ0W
+[2023.10.05-12.28.14:765][615]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/JRH61G2N37PM3T6CXNNZ0W27E3A40B46A37474968290BCF60AD052.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/0D/JRH61G2N37PM3T6CXNNZ0W.uasset'
+[2023.10.05-12.28.15:004][615]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.05-12.28.15:005][615]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_FirstPersonCharacter21F9526F4AE1DCB630720ABF40B62DB4.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.05-12.28.15:226][615]LogSavePackage: Moving output files for package: /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon
+[2023.10.05-12.28.15:226][615]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BPC_NPC_Demon588CE7054A57529583E8E5B17259FAF4.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.uasset'
+[2023.10.05-12.28.15:227][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sample/Bluprints/BP_Puerta" FILE="../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Sample/Bluprints/BP_Puerta.uasset" SILENT=true
+[2023.10.05-12.28.15:238][615]LogSavePackage: Moving output files for package: /Game/Sample/Bluprints/BP_Puerta
+[2023.10.05-12.28.15:238][615]LogSavePackage: Moving '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Saved/BP_PuertaE22CD56746BC64C987D5D49CCB73E281.tmp' to '../../../../../GitHub Projects/UnrealHalfDead/TP1Jueves/Content/Sample/Bluprints/BP_Puerta.uasset'
+[2023.10.05-12.28.15:246][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 545 ms (total: 4.42 sec)
+[2023.10.05-12.28.15:259][615]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.05-12.28.15:259][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.05-12.28.15:259][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon
+[2023.10.05-12.28.15:259][615]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sample/Bluprints/BP_Puerta.BP_Puerta
+[2023.10.05-12.28.15:259][615]LogContentValidation: Display: Validating /Game/Trampa/Trampa.Trampa_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Trampa_C_UAID_FC3497E2C17843AF01_2075527751
+[2023.10.05-12.28.15:259][615]LogContentValidation: Display: Validating /Game/Characters/NPC_BH/NPC_BT/BP/BPC_NPC_Demon.BPC_NPC_Demon_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BPC_NPC_Demon_C_UAID_FC3497E54BE790AF01_1167933303
+[2023.10.05-12.28.37:893][808]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.10.05-12.28.37:893][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.05-12.29.30:406][605]BlueprintLog: New page: Compile BPC_NPC_Demon
+[2023.10.05-12.29.30:555][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
